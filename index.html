@@ -28,19 +28,22 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-light">
+    <!-- <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand" href="#">
             <img src="images/totalrealtytexas-logo.jpg" height="50" class="d-inline-block align-top" alt="">
         </a>
-    </nav>
+    </nav> -->
 
     <div class="applyform" style="height: 80%; min-height: 650px; background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),url(images/austin-hero.jpg); background-size: cover; text-align: center;">
         <div>
             <!-- <div class="job-left col-md-1 d-none d-md-block">
                 <a role="button" class="btn btn-outline-primary btn-sm" href=""  target="_blank">Sign Up Now</a>
             </div> -->
-            <div class="col" style="padding-top: 130px;">
-                <h1 style="color:white; font-size:2.3em;">
+            <div class="col" style="padding-top: 60px;">
+                <div>
+                    <img src="images/totalrealtytexas-logo.jpg" height="50" class="d-inline-block align-top mb-5" alt="total realty austin logo">
+                </div>
+                <h1 style="color:white; font-size:2.1em; margin-bottom:0;">
                     Total Realty Texas<br>
                     Your Reliable Chinese Realtor®.
                 </h1>
@@ -50,14 +53,18 @@
         <div class="row">
 
             <div class="feature1 col col-sm-6 offset-sm-3">
-                <h1 style="font-size:1.5em; margin: 0 10px; color: white;">
+                <h1 style="font-size:1.3em; margin: 0 5px; color: rgba(255, 255, 255, .7);">
                     Trusted by over 5,400 homeowners in Austin since 1995.
 
                 </h1>
                 <div style="margin:20px;">
+                    <a type="button" class="btn btn-trt" style="font-size:1.3em;" href="tel:(512) 655-9538">Text (512) 655-9538</a>
+                    <div style="margin-top: 10px;">
+                        <a href="#contact-form" style="color: white;">Or let us call you</a>
+                    </div> 
                     <!-- <div style="color: grey;">@lang('totalrealtytexas.wechat')</div> -->
-                    <img src="images/wechat-qr.jpg" alt="wechat qr total realty texas" height="150px">
-                    <div style="color: white; margin-top: 10px;">WeChat: WendyChenAustin</div>
+                    <!-- <img src="images/wechat-qr.jpg" alt="wechat qr total realty texas" height="150px">
+                    <div style="color: white; margin-top: 10px;">WeChat: WendyChenAustin</div> -->
                 </div>
 
             </div>
@@ -286,7 +293,7 @@
         <div class="container">
             <div class="row">
                 <div class="card col-sm feature">
-                    <div class="card-body">
+                    <div class="card-body" id="contact-form">
                         <div>Please leave your contact information and we will call you back ASAP.</div>
                         <form class="myform" action="https://docs.google.com/forms/d/e/1FAIpQLSduRHGDBQRkEvAu5xCM2_860S3u5WYvLR4DR3BYKWLBOaduHA/formResponse"
                             method="POST" style="padding: 30px 30px 0 30px;">
